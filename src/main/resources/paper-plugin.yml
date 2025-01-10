@@ -1,0 +1,6 @@
+name: viaversionforward-paper
+version: '1.0-SNAPSHOT'
+main: com.frosthex.viaversionforwardpaper.ViaVersionForwardPaperPlugin
+api-version: '1.20'
+authors: [ JustBru00 ]
+description: Forwards players client versions to backend servers using plugin messages.
