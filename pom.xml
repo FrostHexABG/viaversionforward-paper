@@ -6,7 +6,7 @@
 
     <groupId>com.frosthex</groupId>
     <artifactId>viaversionforward-paper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>viaversionforward-paper</name>
