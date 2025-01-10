@@ -1,5 +1,6 @@
 package com.frosthex.viaversionforwardpaper;
 
+import org.bukkit.command.CommandExecutor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -11,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 
-public final class ViaVersionForwardPaperPlugin extends JavaPlugin implements PluginMessageListener, Listener {
+public final class ViaVersionForwardPaperPlugin extends JavaPlugin implements PluginMessageListener, Listener, CommandExecutor {
 
     @Override
     public void onEnable() {
